@@ -1,3 +1,4 @@
+```
 // Example Usage:
 
 var classify = require('classify');
@@ -59,3 +60,4 @@ console.log("Now there are " + Human.getHowManyMammals() + " mammals around.");
 
 
 // See the test directory for an example of how to split classes into separate files.
+```
