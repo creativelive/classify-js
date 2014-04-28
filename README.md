@@ -41,8 +41,8 @@ var Human = classify({
       return "I speak " + this._language;
     },
     die : function() {
-      console.log("croak!");
       Human.recordDeath();
+      return "croak";
     }
   }
 });
@@ -58,9 +58,10 @@ console.log("The newly-constructed human says:\n", human.speak()); // Human inst
 
 // The Human constructor function inherits the Mammal class methods, e.g. getHowManyMammals()
 console.log("There are " + Human.getHowManyMammals() + " mammals around.");
-console.log("Upon dying, the human says " + human.die()); // Human instance method.
+console.log("Upon dying, the human says:\n" + human.die()); // Human instance method.
 console.log("Now there are " + Human.getHowManyMammals() + " mammals around.");
 
 
 // See the test directory for an example of how to split classes into separate files.
+
 ```
