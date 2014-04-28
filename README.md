@@ -52,7 +52,8 @@ var human = new Human({
   language : 'english'
 });
 
-console.log("The newly-constructed human has hair-color:\n", human.getHairColor()); // Inherited from Mammal instance methods.
+// The new Human instance inherits the Mammal instance methods, e.g getHairColor().
+console.log("The newly-constructed human has hair-color:\n", human.getHairColor());
 console.log("The newly-constructed human says:\n", human.speak()); // Human instance method.
 console.log("There are " + Human.getHowManyMammals() + " mammals around."); // Inherited from Mammal class methods.
 console.log("Upon dying, the human says " + human.die()); // Human instance method.
