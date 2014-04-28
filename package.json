@@ -1,5 +1,11 @@
 {
   "name" : "classify",
-  "version" : "0.0.0",
-  "author" : "Terry Ford"
+  "version" : "0.10.0",
+  "author" : "Terry Ford",
+  "dependencies" : {
+  },
+  "devDependencies" : {
+    "mocha" : "~1.18.2",
+    "chai"  : "~1.9.1"
+  }
 }
