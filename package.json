@@ -1,7 +1,11 @@
 {
-  "name" : "classify",
-  "version" : "0.10.0",
+  "name" : "classify-js",
+  "version" : "0.10.1",
   "author" : "Terry Ford",
+  "repository" : { 
+    "type" : "git",
+    "url" : "http://github.com/cl-tford/classify-js.git"
+  },
   "dependencies" : {
   },
   "devDependencies" : {
