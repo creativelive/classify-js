@@ -1,3 +1,5 @@
+Factory for creating constructor functions which inherit from other functions -- classical-style.
+
 ```
 // Example Usage:
 
