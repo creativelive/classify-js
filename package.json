@@ -11,5 +11,13 @@
   "devDependencies" : {
     "mocha" : "~1.18.2",
     "chai"  : "~1.9.1"
-  }
+  },
+  "keywords" : [
+    "inheritance",
+    "class",
+    "methods",
+    "instance",
+    "multiple",
+    "constructor"
+  ]
 }
