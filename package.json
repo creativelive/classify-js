@@ -1,11 +1,32 @@
 {
-  "name" : "classify",
-  "version" : "0.10.0",
-  "author" : "Terry Ford",
-  "dependencies" : {
+  "name": "classify-js",
+  "version": "0.10.0",
+  "author": "Terry Ford",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1",
+    "gulp": "^3.6.2",
+    "minimist": "^0.1.0",
+    "gulp-jsbeautifier": "0.0.2",
+    "gulp-diff": "^0.1.4",
+    "confidence": "^0.12.1",
+    "gulp-eslint": "^0.1.7"
   },
-  "devDependencies" : {
-    "mocha" : "~1.18.2",
-    "chai"  : "~1.9.1"
-  }
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js lint && echo 'your tests here'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creativelive/classify.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativelive/classify/issues"
+  },
+  "homepage": "https://github.com/creativelive/classify"
 }
