@@ -4,7 +4,7 @@
   "author" : "Terry Ford",
   "repository" : { 
     "type" : "git",
-    "url" : "http://github.com/cl-tford/classify-js.git"
+    "url" : "http://github.com/creativelive/classify-js.git"
   },
   "dependencies" : {
     "underscore" : "~1.6.0"
