@@ -1,7 +1,9 @@
+Factory for creating constructor functions which inherit from other functions -- classical-style.
+
 ```
 // Example Usage:
 
-var classify = require('classify');
+var classify = require('classify-js');
 
 var howManyMammals = 0;
 
@@ -60,6 +62,7 @@ console.log("The newly-constructed human says:\n", human.speak()); // Human inst
 console.log("There are " + Human.getHowManyMammals() + " mammals around.");
 console.log("Upon dying, the human says:\n" + human.die()); // Human instance method.
 console.log("Now there are " + Human.getHowManyMammals() + " mammals around.");
+
 
 
 // See the test directory for an example of how to split classes into separate files.
