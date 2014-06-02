@@ -1,3 +1,4 @@
+/*eslint no-eval:0 */
 'use strict';
 
 var _ = require('underscore');
