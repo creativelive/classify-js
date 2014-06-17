@@ -1,24 +1,34 @@
 {
-  "name" : "classify-js",
-  "version" : "0.10.6",
-  "author" : "Terry Ford",
-  "repository" : { 
-    "type" : "git",
-    "url" : "http://github.com/creativelive/classify-js.git"
+  "name": "classify-js",
+  "version": "0.10.6",
+  "author": "Terry Ford",
+  "dependencies": {
+    "underscore": "~1.5.2"
   },
-  "dependencies" : {
-    "underscore" : "~1.6.0"
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1",
+    "gulp": "^3.6.2",
+    "minimist": "^0.1.0",
+    "gulp-jsbeautifier": "0.0.2",
+    "gulp-diff": "^0.1.4",
+    "confidence": "^0.12.1",
+    "gulp-eslint": "^0.1.7"
   },
-  "devDependencies" : {
-    "mocha" : "~1.18.2",
-    "chai"  : "~1.9.1"
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "keywords" : [
-    "inheritance",
-    "class",
-    "methods",
-    "instance",
-    "multiple",
-    "constructor"
-  ]
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js lint && mocha ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creativelive/classify-js.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativelive/classify-js/issues"
+  },
+  "homepage": "https://github.com/creativelive/classify-js"
 }
