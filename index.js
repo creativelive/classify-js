@@ -1,3 +1,5 @@
+'use strict';
+
 var Classical = require('./classical.js');
 
 module.exports = function classify(options) {
@@ -5,4 +7,3 @@ module.exports = function classify(options) {
 
   return classical.createClass();
 };
-

@@ -1,28 +1,30 @@
+'use strict';
+
 var classify = require('../../');
 
 var howManyMammals = 0;
 
 var Mammal = classify({
-  name : 'Mammal',
-  inherits : [],
-  initialize : function(options) {
-    this._hairColor = options.hairColor;
+  name: 'Mammal',
+  inherits: [],
+  initialize: function(options) {
+    this.hairColor = options.hairColor;
     Mammal.recordBirth();
   },
-  classMethods : {
-    getHowManyMammals : function() {
+  classMethods: {
+    getHowManyMammals: function() {
       return howManyMammals;
     },
-    recordBirth : function() {
+    recordBirth: function() {
       howManyMammals += 1;
     },
-    recordDeath : function() {
+    recordDeath: function() {
       howManyMammals -= 1;
     }
   },
-  instanceMethods : {
-    getHairColor : function() {
-      return this._hairColor;
+  instanceMethods: {
+    getHairColor: function() {
+      return this.hairColor;
     }
   }
 });
